@@ -1,0 +1,27 @@
+package YandDConversion;
+import java.util.*;
+public class Conversion {
+
+	public static void main(String[] args) {
+		
+		Scanner conv=new Scanner(System.in);
+		System.out.println("\nInput the number of minutes:");
+		int minutes=conv.nextInt();
+		Conversion conv1=new Conversion();
+		int call1=mintoYears(minutes);
+		int call2=mintoDays(minutes);
+		System.out.println("\n" + minutes + " minutes is approximately " + call1 + " years and " + call2 + " days." );;
+		
+
+	}
+	
+	  public static int mintoYears(int m){
+		int years=m/(60*24*365);
+		return years;
+	}
+	
+	  public static int mintoDays(int m){
+		int days=(m/60/24)%365;
+		return days;
+	}
+}
