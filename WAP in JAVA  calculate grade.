@@ -1,0 +1,36 @@
+package calculateGrade;
+import java.util.*;
+
+public class CalculateGrade {
+
+	public static void main(String[] args) {
+		
+		System.out.println("\nPress A: marks>85\nPress B: marks>70 and marks<85\nPress C: marks>55 and marks<70\nPress D: marks>40 and marks<55\nPress E: Disqualified\n");
+		Scanner grade1=new Scanner(System.in);
+		System.out.println("Enter your GRADE: ");
+		String grade=grade1.nextLine();
+		char gr=grade.charAt(0);
+		switch(gr)
+		{
+		case 'A':
+				System.out.println("\nYou have got the marks more than 85.");
+				break;
+				
+		case 'B':
+				System.out.println("\nYou have got the marks between 70 and 85.");
+				break;
+				
+		case 'C':
+				System.out.println("\nYou have got the marks between 55 and 70.");
+				break;
+				
+		case 'D':
+				System.out.println("\nYou have got the marks between 40 and 55.");
+				break;
+				
+		case 'E':
+				System.out.println("\nYou are not qualified to go further as you have got the marks below 40.\nSo, GOOD LUCK for the next time.");
+		}
+	}
+
+}
