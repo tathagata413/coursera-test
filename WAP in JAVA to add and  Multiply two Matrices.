@@ -1,0 +1,82 @@
+package matrixAddMul;
+
+public class Matrix {
+
+	public static void main(String[] args) {
+		
+		int m1[][]= {
+						{1,3,4},
+						{2,4,3},
+						{3,4,5}
+					};
+		
+		int m2[][]= {
+				{1,3,4},
+				{2,4,3},
+				{1,2,4}
+			};
+		
+		int[][] sum=new int[3][3];
+		int mul=0;
+		int[][] mul1=new int[3][3];
+		int k=0,i=0,j=0;
+		System.out.println("\nElements of first Matrix :-\n");
+		for(i=0;i<3;i++) {
+			for(j=0;j<3;j++) {
+				System.out.print(m1[i][j] + "\t");
+			}
+			System.out.println("\n");
+		}
+		
+		System.out.println("\nElements of second Matrix :-\n");
+		for(i=0;i<3;i++) {
+			for(j=0;j<3;j++) {
+				System.out.print(m2[i][j] + "\t");
+			}
+			System.out.println("\n");
+		}
+		
+		//Addition of two Matrices
+		for(i=0;i<3;i++) {
+			for(j=0;j<3;j++) {
+				
+				sum[i][j]= m1[i][j] + m2[i][j];
+				
+			}
+			
+		}
+		
+		System.out.println("\nAddition of two Matrices :-\n");
+		for(i=0;i<3;i++) {
+			for(j=0;j<3;j++) {
+				
+				System.out.print(sum[i][j] + "\t");
+				
+			}
+			System.out.println("\n");
+		}
+		
+		//Multiplication of two Matrices
+		for(i=0;i<3;i++) {
+			for(j=0;j<3;j++) {
+				for(k=0;k<3;k++) {
+					
+					mul=m1[i][k] * m2[j][k]; 
+					
+				}
+				mul1[i][j]=mul;
+			}
+		}
+		
+		System.out.println("\nMultiplication of two Matrices :-\n");
+		for(i=0;i<3;i++) {
+			for(j=0;j<3;j++) {
+				
+				System.out.print(mul1[i][j] + "\t");
+				
+			}
+			System.out.println("\n");
+		}
+	}
+
+}
