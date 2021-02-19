@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TG MITRA</title>
+</head>
+<body>
+    <!--Navbar-->
+    <a name="home">
+    <div>
+        <a href="#"> <h2>TGM</h2> </a><br>
+        <br><br>
+        <a href="#home"> <h3>HOME</h3> </a><br>
+        <a href="#aboutus"> <h3>ABOUT <br>US </h3> </a><br>
+        <a href="#projects"> <h3>PROJECTS</h3> </a><br>
+        <a href="#feedback"> <h3>FEEDBACK</h3> </a><br>
+        <a href="#contactus"> <h3>CONTACT <br>US </h3> </a><br>
+    </div>
+    
+    <div>
+        <hr>
+    </div>
+    <!--intro Section-->
+    <div>
+        <img src="resource/portfolio.jpeg" alt="portfolio image" height="20%" width="50%">
+    </div>
+    <div>
+        <h2>Hi, everyone <br><br> presenting you all <br> my portfolio <br> website</h2>
+    </div>
+
+    <div>
+        <img src="resource/tgmitra.jpg" alt="tathagatamitra image" height="20%" width="30%">
+    </div>
+    <div>
+        <h2>Tathagata Mitra</h2>
+        <h3>I am a Web Developer</h3>
+    </div>
+    <hr><br>
+    </a>
+
+    <!--ABOUT US Section-->
+    <a name="aboutus">
+    <hr>
+    <h2>ABOUT US</h2>
+    <hr>
+
+    <br>
+    <div>
+        
+        <h2> What I can do?</h2><br>
+        <h3>
+            I can do both the front and back end developing of any <br> web application.
+            And if you are interested and want to <br> make your carrier in this field, 
+            I can take you to the target. <br> Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit, <br> sed doeiusmod tempor incididunt ut labore et dolore <br> magna
+            aliqua. Ut enim ad minim veniam, quis nostrud <br> labore tempor ut labore
+            exercitation.
+        </h3>
+    </div>
+    <br>
+    <div>
+        
+        <h2> What am I doing currently?</h2><br>
+        <h3>
+            I am currently a frelancer from India. Lorem ipsum <br> 
+            dolor sit amet, consectetur adipiscing elit, sed do <br>
+            eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut
+            enim ad minim veniam, quis nostrud labore <br> tempor ut labore
+            exercitation.
+        </h3>
+    </div>
+    <br>
+
+    <div>
+        
+        <h2> What do I believe in?</h2><br>
+        <h3>
+            I believe in sharing the knowlwdge and experience. <br> It help others
+            to have some experience and they <br> will get inspired from the person
+            the person. Lorem <br> ipsum dolor sit amet, consectetur adipiscing elit,
+            sed <br> to eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut 
+            enim ad minim veniam, quis nostrud <br> labore tempor ut labore
+            exercitation.
+        </h3>
+    </div>
+    <br>
+    <div>
+        
+        <h2>  What can I help you?</h2><br>
+        <h3>
+            I an help you to build any type of web application. <br> And also to
+            have many experience, if you have <br> interested in this field.
+            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do
+            eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. <br> Ut
+            enim ad minim veniam, quis nostrud labore <br> tempor ut labore
+            exercitation.
+        </h3>
+    </div>
+    <hr>
+    <h2>COPYRIGHT ALUMNI @ 2021</h2>
+    <hr><br>
+    </a>
+
+    <!--PROJECTS Section-->
+    <a name="projects">
+    <hr>
+    <h2>MY PROJECTS</h2>
+    <hr>
+
+    <br>
+    <div>
+        <img src="resource/project1.jpg" 
+        alt="My project no. 1"
+        height="270px">
+        <h3>This project is about ......</h3>
+        <p> 
+            ipsum dolor sit amet,
+            <br>consectetuer adipiscing 
+            <br>elit…...
+        </p>
+    </div>
+
+    <br><br>
+    <div>
+        <img src="resource/project2.jpg" 
+        alt="My project no. 1"
+        height="270px">
+        <h3>This project is about ......</h3>
+        <p> 
+            ipsum dolor sit amet,
+            <br>consectetuer adipiscing 
+            <br>elit…...
+        </p>
+    </div>
+
+    <br><br>
+    <div>
+        <img src="resource/project3.jpg" 
+        alt="My project no. 1"
+        height="270px">
+        <h3>This project is about ......</h3>
+        <p> 
+            ipsum dolor sit amet,
+            <br>consectetuer adipiscing 
+            <br>elit…...
+        </p>
+    </div>
+    <br>
+    <hr>
+    <h2>COPYRIGHT ALUMNI @ 2021</h2>
+    <hr><br>
+    </a>
+
+    <!--FEEDBACK Section-->
+    <a name="feedback">
+    <br>
+    <hr>
+    <h2>FEEDBACK</h2>
+    <hr>
+    <br>
+    <div>
+        <form action="get">
+
+            <label for="feedback"><h3>Feedback</h3></label>
+            <textarea
+                name="user_feedback" 
+                id="feedback"
+                rows="8"
+                cols="50"
+                placeholder="give a feedback"
+            ></textarea>
+        <input type="button" value="ADD COMMENT">
+        <br>
+        <label for="user_name"><h3>Name*</h3></label>
+        <input type="text" name="user_name" id="user_name" size="40" placeholder="type your name">
+        <br> 
+        <label for="user_email"><h3>Email*</h3></label>
+        <input type="email" name="user_email" id="user_email" size="40" placeholder="type your email">
+        <br>
+        <label for="website"><h3>Website</h3></label>
+        <input type="text" name="website" id="website" size="40" placeholder="type your website if you have">
+        <br> 
+        <br>
+        <input type="button" value="SUBMIT">   
+        </form>
+    </div>
+    <br>
+    <hr>
+    </a>
+
+    <!--CONTACT US Section-->
+    <a name="contactus">
+    <br>
+    <hr>
+    <h2>CONTACT US</h2>
+    <hr>
+    <br>
+    <form action="get">
+
+        <div>
+            <label for="user_fname"><h3>First name*</h3></label>
+        <input type="text" name="user_fname" id="user_fname" size="20" placeholder="type your first name">
+        <br> 
+        </div>
+
+        <div>
+            <label for="user_lname"><h3>Last name*</h3></label>
+            <input type="text" name="user_lname" id="user_lname" size="20" placeholder="type your last name">
+        </div>
+        <div>
+            <label for="user_email"><h3>Email*</h3></label>
+            <input type="email" name="user_email" id="user_email" size="40" placeholder="type your email">
+            <br>
+            <label for="user_message"><h3>Message*</h3></label>
+            <input type="text" name="user_meesage" id="user_message" size="40" placeholder="type a message">
+            <br>
+            <label for="user_AddInfo"><h3>Additional Information</h3></label>
+            <textarea
+                name="user_AddInfo" 
+                id="user_AddInfo"
+                rows="8"
+                cols="50"
+                placeholder="give additional information"
+            ></textarea>
+            <br><br>
+            <input type="button" value="SUBMIT">  
+        </div>
+
+    </form>
+    </a>
+</body>
+</html>
